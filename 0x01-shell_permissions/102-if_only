@@ -1,0 +1,2 @@
+#!/bin/bash
+[ "$(sta -o '%U' hello)" = "guillaume" ] && chown betty hello
